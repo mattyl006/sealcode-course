@@ -1,7 +1,21 @@
 article {
     max-width: 600px;
-    text-align: justify;
     hyphens: auto; 
     /* rozmieszcza słowa tak aby odstępy między nimi były równe */
     margin: 0 auto;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: left;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: left;
+}
+
+p {
+    font-family: monospace;
+    text-align: justify;
 }
