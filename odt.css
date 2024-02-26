@@ -1,0 +1,7 @@
+main {
+    max-width: 600px;
+    text-align: justify;
+    hyphens: auto; 
+    /* rozmieszcza słowa tak aby odstępy między nimi były równe */
+    margin: 0 auto;
+}
