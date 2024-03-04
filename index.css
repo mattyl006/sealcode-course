@@ -1,0 +1,39 @@
+article {
+    max-width: 1200px;
+    padding: 8px;
+    hyphens: auto; 
+    /* rozmieszcza słowa tak aby odstępy między nimi były równe */
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: serif;
+    text-align: left;
+}
+
+h2 {
+    font-family: serif;
+    text-align: left;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.image1 {
+    float: right;
+    margin: 0 16px;
+    max-width: calc(100vw - 32px);
+    width: 441px;
+    height: 331px;
+}
+
+.image2 {
+    float: left;
+    shape-outside: ellipse(200px 245px);
+    margin: 0 16px;
+    max-width: calc(100vw - 32px);
+    width: 384px;
+    height: 527px;
+}
