@@ -1,3 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
 article {
     max-width: 1200px;
     padding: 8px;
@@ -36,4 +46,13 @@ p {
     max-width: calc(100vw - 32px);
     width: 384px;
     height: 527px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2 {
+    scroll-margin: 32px;
 }
